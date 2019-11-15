@@ -10,7 +10,7 @@ uses
 
 
 const
-  url = 'https://kucobatukbertahan.000webhostapp.com/API/getData.php?key=hUIY!*DH!Ey928HD892H89@Y79@&act=';
+  url = 'https://kucobatukbertahan.000webhostapp.com/API/getData.php?key=hUIY&act=';
 
 type
   TStringArray = array of array of String;
