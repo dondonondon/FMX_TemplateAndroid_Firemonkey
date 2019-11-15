@@ -1,0 +1,888 @@
+object FLogin: TFLogin
+  Size.Width = 380.000000000000000000
+  Size.Height = 720.000000000000000000
+  Size.PlatformDefault = False
+  object reBG: TRectangle
+    Align = Contents
+    Fill.Color = xFF33A393
+    Size.Width = 380.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Image1: TImage
+      MultiResBitmap.Height = 53
+      MultiResBitmap.Width = 132
+      MultiResBitmap = <
+        item
+          Width = 132
+          Height = 53
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000008400000035080600000080D243
+            77000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            08D949444154785EED9CBD6F1C4518C6F7CEB14D0452CE0DA90207111D890E51
+            122967212A0A9C129A9C3BBA387F419C0E2A870A3A3B828686848274C8460AD0
+            44B2151A1AB0431568EC48A0D8CEC7F13CB3EFACF763667636BE5DEB92F949A3
+            99D9999DCF77DEF9D8B98B028140201008040281402010080402814020100804
+            028140602C690D87C3CED3A74F9760FAF2EC50B45AAD9D89898979D81BF22830
+            4E4020166146CDA2241F1833DA30DDD8393AA06D5E176760CCA0400402097509
+            C403B10363462D02D16EB7C382724CE12E6305F6C5D85B04E10BD831541AF188
+            CF3403E3080582DB021B6181F862111695810C3E5346176B827BE21D2B50F60E
+            2C6EAB696B367878266E05E2F5A1093F82B3173F897650E7EFAB4E7D925F4FD2
+            CAE74B3690EE4FB491F656FCC81FF6052CD331C10ED2F35AB759DA846CA93221
+            C2733965A0E89DBDBDBDEDB816073C7AF4681356D2184F9E3C598A438AA0EE0B
+            12CD09A276998E293F1B88BF0CCBD4B9461077A05EB4E0535644EB4AFD0BB0EC
+            3AD2F32A10DDB80645749DA453AC305C25E600695DAA220879F0FE1549CA09A2
+            F6E337CC4819F2A33E83ABBE085B5591E07E2105020D60D50C9A328160674AD4
+            43E12B14EC3479C508EB24510B20D8DA1E42ACADE038728140369DDDDDDD0548
+            F92A551A0C55FBF0E1C387DB7C063380DB5BBD12A4696D001F61202E81189530
+            68909E8FCAEFC5B19D18DB897591F002997AC27F640281E43BE8F8652D001E66
+            D9573090B655207C55BC4D2010E49CCF09DE5D6527C3C9B88BF4AB000B52A6D2
+            BA219D6BF11B66988F444DC0633FED40E039128140E7F6A901721DEE63A8414A
+            3FD5A3E8658DE083F1AB2DCB20E10524CCD8B1783E7009233B5BA25A4134E362
+            3947A67D90AE9F762078562610976051CA7D4DA9943F7EFCF8A2746E62F08C79
+            0DA3AF3F43124365D38F02AB30437CEB5699B01C2A210F901E3B51951D865BD0
+            058E34FA25B904896744D271D69F69C7B18B48473B178604719C5716587689EA
+            6C076379F1C029105529485C0E54BAA73B551B76BC8682B0F9EF8EB2B7F777E5
+            A94A37F38E18ABA6C02BBE02C1FA9776824604C5C640A23941B9AD1A06F8683F
+            6F2DE12A2F8553259862E42795C8C45A21CEFFED76FB867815C78E1DE3B70FE5
+            BE7AF76765BF71E32B65CF7C7B4DB9AFFFF91B3F98A9B839A80ABD3B330F1A8B
+            07440398CC41950DE4C5F2BB3A6C4D6C273CF4126701B4DF9C38ADB0BC939393
+            57C56B04E970D13B672B2F34EC16C20A5354A347D713131354F3898A4A77F0E5
+            3B3F468B776F2B776FE65565F74F9E8AB6FE7B102D204C93138AEEFEFEBED7E1
+            511E3608CA7341BCBEE893CC02225C5EA78FE808D7A9E209B19DB03399A7780B
+            5010D036566D8D76340AD4C805C236DA3892391AC5AB46BC869D7EEDF73BE28B
+            A2F50FE795BDFAC127D1E6DCA7D1E0F419E5D7A023C5A54602D73895B5041BC4
+            B703352EED67ABB70557DCD2359806ED70599C46A6A6A68CEDC2C180F21A8FE5
+            1B1308482B556152D9B440ACDDFF4B5C45BAAF9C8896DE7D5F7C31C84319828E
+            ED48DA55A9FC2D0158775C6864AE8DB8032A35AE910BA1F31608B4C11AE27B4D
+            5369D066F18833502A10544BCCD4D7A0A3BF905733A0F0FCE0A3480B0399997A
+            495CFE68812048EFBC38EBC6AA89381AD1D05D1F631BB9CF02EAEE5C4BE4411F
+            AD5090C45BA0542090E11C54D3ACAF416637E5D50C789E487EBA33C9F993AF45
+            DD970FA64EAE27CAC809956BA137320EB380F5056D5365EA617C3510C55B0ADA
+            CDBAA025A50231429205595E203A53D3582F7C9C08855E4FCCFF722B5AFBDB3E
+            9D68A0AE6BEF28D2904054BA7E883295ED7C3240782E89D34863F72130770EC5
+            99DF2964687DF3B9120C2E34358B67CF4557CEBE27BE032008E28A226CC33252
+            C672C3DA8C7D46A8CD2ACDBFC86F1D5AD0B8D3C0BA6007F53AEC5D526E052B2D
+            7631A52FE31DAFF38F14FC2195F9AE070502C60A246A2447D7E9636A17E993CA
+            EE775F2A9B66F5FE3DF53C8D4E2F2D6C1A04971D4C559E66D0F8D6431E8419A7
+            CA3A41B6DEA7B169D05E9BB08CDAAEB12903A327991B511871B9E1F693D309E1
+            E19483C38E4C2F5C9A1275AAFDAB701E0C56E7A9B00D2E6C6119CF6F1A13088C
+            205E1D53F80A0485A13773527C59D018E252EE46AEF8A1DC56C143FDBCB78BA3
+            00651994AC1DAC5B4B8229CE787ED39840A4E7EBBC405CBD7B5B1D5BA7D70D64
+            63FB9F6451C99D489AB4408046D4B56BC1C7AD24EAD5C86E87603D63BD5483B6
+            E1D67205B6758D245BDFFABF65D840016EA2126ADAA040A4858282C0636BFD0D
+            63FED75BCA7EE787582372913978F3E0B43227505B4C5BDC75B3C1C5A3B80BA0
+            03BC6E3E1D16D47F206ADF0817A669DB01BF7764D2695243F02673726805152B
+            2E94EACCB968EED45BE28BA2953FE2F54267723A1A9C7E3B39CAD6A4DF05D799
+            B6B86B85F9B8761254E1285BA5791D1DC2BF63E0E7767EA8B37E2BD1B0033DB4
+            83DAA5C0E6198573B0203C7BED0E1934764106C9F186148F6F93DD419AEDBDDD
+            6447419BFE3CE97761366D37A81075E4BB0CC2F7E2D7EDB05CB08C7743F08C53
+            0BAFEAAB3B17E9CFD8F0975E9011C13122F966F2A45F05BA49DAA2310D416424
+            67863BCF125020E5D63B8ABEAC17B49F300EE3A641A35E387EFCF8B37C937866
+            64D4198FE735A2CEA929D841AAA368D8F97846B38E7496A85172C7D8CE2F9D48
+            8A6742D63307E44B6D99690FF15F8F7D66509F038D834C1AD3101A34CC000DA4
+            47B932E86C75518646A3FD0CCBC7671A929C11BC5E8B8620785769BA3899D151
+            36DD54D50E1A3EF7BD50D3A886D04C4F4FF3946C162691661448AD0D68A80968
+            B49F611A3CA7969995348E046A3A8CC6599465A4DA09A3DF75CED1AFAA1D347C
+            0E4DE4D46AA84B2C8CC8A8710DA1E1FC8F55FB4A7AE49718EF1B5288579B86D0
+            200DAE079CEDE70BEA661DE144C28D304CA25941349F6B7703CE1F0BB6CC303A
+            0B57BAEB8082C1290066357DC4CD72F1197FB381E278098286F16DF5C2685887
+            656DFCAA302D180AB6B5D34CB083D0C614F252E1B4A52D9DEC751F847D1DBF65
+            86E12D89AB2A254E0D7F40DAC876AE4E502F0A525A986AAD17F2E32EA4873CB8
+            9DCC6BD70754DF347057FEC1AFA18FF4A2B112A67400DAA5B5F33FEA99630446
+            159F4D0000000049454E44AE426082}
+          FileName = 
+            'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\l' +
+            'ogo\forex.png'
+        end>
+      Align = Center
+      Opacity = 0.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      object faAniOpa: TFloatAnimation
+        AutoReverse = True
+        Enabled = True
+        Duration = 0.800000011920929000
+        Interpolation = Quadratic
+        Inverse = True
+        Loop = True
+        PropertyName = 'Opacity'
+        StartValue = 0.000000000000000000
+        StopValue = 1.000000000000000000
+      end
+    end
+  end
+  object loMain: TLayout
+    Align = Center
+    Size.Width = 252.000000000000000000
+    Size.Height = 346.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object reCenter: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 252.000000000000000000
+      Size.Height = 346.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object ShadowEffect1: TShadowEffect
+        Distance = 5.000000000000000000
+        Direction = 90.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object gplLogin: TGridPanelLayout
+      Align = Contents
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 242.000000000000000000
+      Size.Height = 336.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ColumnCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = btnLogin
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = btnSignUp
+          Row = 0
+        end
+        item
+          Column = 0
+          ColumnSpan = 2
+          Control = tcMain
+          Row = 1
+        end>
+      RowCollection = <
+        item
+          SizeStyle = Absolute
+          Value = 35.000000000000000000
+        end
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object btnLogin: TCornerButton
+        Align = Client
+        Corners = [TopLeft, BottomLeft]
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 121.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'btnPressed'
+        TabOrder = 1
+        Text = 'SIGN IN'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        OnClick = btnLoginClick
+      end
+      object btnSignUp: TCornerButton
+        Align = Client
+        Corners = [TopRight, BottomRight]
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 121.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'btnIdle'
+        TabOrder = 0
+        Text = 'SIGN UP'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        OnClick = btnSignUpClick
+      end
+      object tcMain: TTabControl
+        Align = Client
+        Margins.Top = 5.000000000000000000
+        Size.Width = 242.000000000000000000
+        Size.Height = 296.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'tcMain'
+        TabIndex = 0
+        TabOrder = 2
+        TabPosition = None
+        Sizes = (
+          242s
+          296s
+          242s
+          296s)
+        object tiLogin: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = True
+          Size.Width = 8.000000000000000000
+          Size.Height = 8.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'tiLogin'
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          object loLoginOpa: TLayout
+            Align = Client
+            Size.Width = 242.000000000000000000
+            Size.Height = 296.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object loLogo: TLayout
+              Align = Top
+              Size.Width = 242.000000000000000000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              object Label9: TLabel
+                Align = Client
+                AutoSize = True
+                StyledSettings = [Family]
+                Size.Width = 242.000000000000000000
+                Size.Height = 100.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 50.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.HorzAlign = Center
+                Text = 'LOGO'
+                TabOrder = 0
+              end
+            end
+            object faLogOpa: TFloatAnimation
+              Duration = 0.200000002980232200
+              PropertyName = 'Opacity'
+              StartValue = 0.000000000000000000
+              StopValue = 1.000000000000000000
+            end
+            object CornerButton1: TCornerButton
+              Align = Top
+              StyledSettings = [FontColor]
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 10.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 210.000000000000000000
+              Sides = [Top, Left, Bottom, Right]
+              Size.Width = 232.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'btnIdle'
+              TabOrder = 3
+              Text = 'SIGN IN'
+              TextSettings.Font.Size = 13.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              XRadius = 5.000000000000000000
+              YRadius = 5.000000000000000000
+              OnClick = CornerButton1Click
+            end
+            object edLPass: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edSign'
+              TabOrder = 1
+              Password = True
+              Position.X = 5.000000000000000000
+              Position.Y = 165.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'Password'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              object PasswordEditButton1: TPasswordEditButton
+                CanFocus = False
+                Cursor = crArrow
+                Size.Width = 28.000000000000000000
+                Size.Height = 31.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Glyph3: TGlyph
+                  Margins.Left = 3.000000000000000000
+                  Margins.Top = 3.000000000000000000
+                  Margins.Right = 3.000000000000000000
+                  Margins.Bottom = 3.000000000000000000
+                  Align = Client
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  ImageIndex = 0
+                  Images = img
+                end
+              end
+              object Glyph2: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 3
+                Images = img
+              end
+            end
+            object edLUser: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edSign'
+              TabOrder = 0
+              Position.X = 5.000000000000000000
+              Position.Y = 125.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 25.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'Username'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              object Glyph1: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 2
+                Images = img
+              end
+            end
+          end
+        end
+        object tiSignUp: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = False
+          Size.Width = 8.000000000000000000
+          Size.Height = 8.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'tiSignUp'
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          object loRegister: TLayout
+            Align = Client
+            Size.Width = 242.000000000000000000
+            Size.Height = 296.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object btnRegister: TCornerButton
+              Align = Top
+              StyledSettings = [FontColor]
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 6.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 234.000000000000000000
+              Sides = [Top, Left, Bottom, Right]
+              Size.Width = 232.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'btnIdle'
+              TabOrder = 4
+              Text = 'SIGN UP'
+              TextSettings.Font.Size = 13.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              XRadius = 5.000000000000000000
+              YRadius = 5.000000000000000000
+              OnClick = btnRegisterClick
+            end
+            object edREmail: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edsign'
+              TabOrder = 1
+              KeyboardType = EmailAddress
+              Position.X = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 15.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'email'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              OnTyping = edREmailTyping
+              object Glyph8: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 4
+                Images = img
+              end
+            end
+            object edRPass: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edsign'
+              TabOrder = 2
+              Password = True
+              Position.X = 5.000000000000000000
+              Position.Y = 115.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 15.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'Password'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              object PasswordEditButton2: TPasswordEditButton
+                CanFocus = False
+                Cursor = crArrow
+                Size.Width = 28.000000000000000000
+                Size.Height = 31.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Glyph4: TGlyph
+                  Margins.Left = 3.000000000000000000
+                  Margins.Top = 3.000000000000000000
+                  Margins.Right = 3.000000000000000000
+                  Margins.Bottom = 3.000000000000000000
+                  Align = Client
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  ImageIndex = 0
+                  Images = img
+                end
+              end
+              object Glyph9: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 3
+                Images = img
+              end
+            end
+            object edRRePass: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edsign'
+              TabOrder = 3
+              Password = True
+              Position.X = 5.000000000000000000
+              Position.Y = 165.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 15.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'Password'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              object PasswordEditButton3: TPasswordEditButton
+                CanFocus = False
+                Cursor = crArrow
+                Size.Width = 28.000000000000000000
+                Size.Height = 31.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Glyph5: TGlyph
+                  Margins.Left = 3.000000000000000000
+                  Margins.Top = 3.000000000000000000
+                  Margins.Right = 3.000000000000000000
+                  Margins.Bottom = 3.000000000000000000
+                  Align = Client
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  ImageIndex = 0
+                  Images = img
+                end
+              end
+              object Glyph7: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 3
+                Images = img
+              end
+            end
+            object edRUser: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              StyleLookup = 'edsign'
+              TabOrder = 0
+              Position.X = 5.000000000000000000
+              Position.Y = 15.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 15.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 232.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'username'
+              StyledSettings = [Size, Style, FontColor]
+              CharCase = ecLowerCase
+              object Glyph6: TGlyph
+                Margins.Left = 3.000000000000000000
+                Margins.Top = 3.000000000000000000
+                Margins.Right = 3.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Align = FitLeft
+                Position.X = 3.000000000000000000
+                Position.Y = 3.000000000000000000
+                Size.Width = 20.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                ImageIndex = 2
+                Images = img
+              end
+            end
+            object faRegOpa: TFloatAnimation
+              Duration = 0.200000002980232200
+              PropertyName = 'Opacity'
+              StartValue = 0.000000000000000000
+              StopValue = 1.000000000000000000
+            end
+            object loTermsCon: TLayout
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 205.000000000000000000
+              Size.Width = 242.000000000000000000
+              Size.Height = 23.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 5
+              object cbTermsCon: TCheckBox
+                Align = Left
+                StyledSettings = [FontColor]
+                Margins.Left = 5.000000000000000000
+                Position.X = 5.000000000000000000
+                Size.Width = 92.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Text = 'I Agree With'
+                TextSettings.Font.Family = 'Bahnschrift'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              object Label7: TLabel
+                Align = Client
+                StyledSettings = []
+                HitTest = True
+                Margins.Left = 7.000000000000000000
+                Size.Width = 138.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Bahnschrift'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFF4D92F2
+                Text = 'Terms & Condition'
+                TabOrder = 1
+              end
+            end
+          end
+        end
+      end
+    end
+    object faHide: TFloatAnimation
+      Duration = 0.200000002980232200
+      Interpolation = Quadratic
+      OnFinish = faHideFinish
+      PropertyName = 'Position.Y'
+      StartValue = 0.000000000000000000
+      StopValue = 0.000000000000000000
+    end
+    object faOpa: TFloatAnimation
+      Duration = 0.300000011920929000
+      Interpolation = Quadratic
+      OnFinish = faOpaFinish
+      PropertyName = 'Opacity'
+      StartValue = 0.000000000000000000
+      StopValue = 1.000000000000000000
+    end
+  end
+  object tiShow: TTimer
+    Enabled = False
+    OnTimer = tiShowTimer
+    Left = 280
+    Top = 8
+  end
+  object img: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C1494441545847ED965D72124110C7A7673F489596E108C909348F5605851B
+              04230F215AB827909C00384192132C9A923C240A378088A58FC4138423F0E043
+              B2CCCE383DCE1216F683AD5895177E55C94E37F3F1A7A7BB17B266CD6303FA99
+              19B7FB6B4B0F154EF9E5580F33B1B200F7BCBF95CB59352148512E2A6A770841
+              C88072727DCBA6A7CE41692541A902F060DBB6DCB843E311ED3B8FB5D28450FD
+              8CA4F3ED67CD26E628FBE1087CC8116BD4F93AAC6B4724B111E85CFE68C84F9B
+              DA7C18729FEA9BDD96B642440A483B5C786202360C0417BF9503E035405A94C4
+              5175BF70A28D194B02CE2E864583425F9B4B08C13F79865F77CAA5897629CEBB
+              FD2DC6CCBE5C1BAA8E797C2E4AEF2B8581361521019870A699B009E7A7D5CA2B
+              75A7285466D00B1C338FF530D9DC6E3F6F327314B75E0A18B33F6CC771EEC587
+              92D0CE591F931683E9AB10E21561940C02C7F897B3AD1B4C581D1507E744817B
+              DBCFCC5052CE22A0EA5C6EA4CD08445BDEA1F3F9F2FB9E09B4AB9DF778647277
+              3BDDC66F27A373131B459C47A63B4179CE2260994662B9701FAEF0496523528E
+              456C92B79E587B38A420D4DC48E4BCDCDC59897D202B40B9BA5B00D8548E1598
+              0930F4FDC64181AB8413047ACAB100962635FCEB7F068FAD0424C8256426E0A0
+              5C1ACBBA8E6C160A466BAEDBCF63192DCEC3C3850547B887AA0E3094D8486425
+              E13C6D85AFC033D90966BB36C3C8BBDB786A357078582934B1A651882F1B8CB7
+              C1B6DFBDDD6DA340F9B18B73A298AFA480CC8D08AB21EA25A3D6013F4EFAF628
+              3AB111059CC91708D6B736E3E8612BA60436B96C4872A3C4562C88681DEE1796
+              DA7BA400E4CBC5B0091454C81F4ADCE148AC000423413D6880BC7FEDCA44909C
+              981FDAB544A200045F32DC379A00B4A65D2B217F390DA83175E6333E8A540101
+              284430A32E803E8F7BF5E2A1F2DF1535593BEDE08095052CF2BF7E94AE59F3C8
+              10F217B5AD32E99C67700E0000000049454E44AE426082}
+            FileName = 
+              'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\i' +
+              'co\ant-design_eye-fill.png'
+          end>
+        Name = 'ant-design_eye-fill'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C7494441545847ED96516ED33018C7FD3969CA03633BC23801E5116943EB09
+              4605430286584ED0EE04DB4EB0EE0401D66E0FEDE86ED06E2DE271E3063D0248
+              3CA036C9473EC749E3266ED2219ED84F8A62278EFF7F7FFE6C87DDF35FE038FD
+              35BA645581CBFB3FC339EFAF9B0FCD9BF20AEF679900795F1AA7F76D5D160576
+              EDD958166384B869F60D0EA2AD8FCCDE7DB5F151BC941436D0EA8D2A1CD93622
+              DB0A3EDA928F1590B101F7D9ED6F777A42F5A438323C7AF772F390CA49720DD0
+              282CABE4E84475E0047F800522E43A7162610EB4BF7CAD5BCCBC59569C28224E
+              680D9C75470780D88C3ABA0B91F86967A81D40A601120F2647EB9AC21BDC2ED1
+              C72371211B846F6644E2D4579007FDB38B6143BE5248E500B9A50F643505A2FF
+              6962780DBB56251382F96C4F8A2707E2F9587DBFB3A998550CCC7794C2F74FDE
+              EE3C17231161E5AC123E67F53C71223030767FB94F6D7B665E9902AB5C8A3B9A
+              873E06D36B52390AABC1E0585C05C4096A673D3295A9880DD0E80159E63C1106
+              678337B5EAF873F7FA4556E79138953DC43DF130036070405AB23A3350320DAD
+              38E17B7045F760334A6574241E6DB51C50B4D5514E68699761519261B7560C61
+              0E0056C5CB02C4060C39BF3A38F8150A1D32D8968F14719C62831BDE6DF8C2CF
+              4E6249944B446C80E697D6B4ACA671F907DD5223712CC13EF521560718E1EAC8
+              225849D44ED6D42998986E93B25D56552CB6362F4E11F1007F4E1EB88FE99493
+              39E0509B2C922B2962F98D488ACB6A8CF80EFCE345A3CFDD88224E836D93D6B7
+              ACC624C31E7C5909A6EC3B67B0EA071B52DE81A5339E69806875AE9B9CF3BAAC
+              CE8BA73A5A844E9CC85C868BB27D1971716879B8AF1327521120F122074B1E74
+              4272636A27333E0BC5804E9CCAE7BD202AAED140E04F0034BF64742C235E21C2
+              E5EEEB8D704FC84131D0EA8EF63884CB68D1BC11457E4AEF44BB333C6C5F0C0B
+              87FA9E7BFE0EC6FE0030D0956C2EA0512E0000000049454E44AE426082}
+            FileName = 
+              'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\i' +
+              'co\ant-design_eye-invisible-fill.png'
+          end>
+        Name = 'ant-design_eye-invisible-fill'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B4494441545847ED964F4EC24014C6E70DA52E4C0C47E00672005138811871
+              E1BF404F423C81700220220B6DE008A056B7F606720416BAD04EFBECE0DB10FB
+              670631BAE86F33FD26AF99AFD3E9F7CA3232FE1AA0518B6E775230B68C26677C
+              5B6A44BCF33C6F6A1D57678B020DB40D0C474F0D7CF7DB604281A6BEF8607366
+              E2C5C961B94D334A6819B8B61F6B00382619891F60F5FCA83C25990AA7518900
+              834BBA4CA24BA312CA06AE6E1F2A390E4592B1C89AC18D5322998AB201045C7E
+              E7C9ACDF0020CCE93295D0ACF2D7A06C4018C24579D2D3086BC4AB7049A5A26C
+              C03AA8CE99811D92B1A0891DCB0A6B15D1CE816BFBBE07C01B2497400CFAA7F5
+              DD264925564AC281ED34C31B1B00AC2235229B2263FDB3FA4E6F5190A181F62B
+              908D28BF992FCA5C000C16C184C067F233F5DEBC99CE0194281990296830D817
+              0C6BA96988BECB80BB7EC0FA2A3D21D1805C98736885458BC3A64BD898664288
+              6A529B8ECD81A1EDB4C2A79DACBAB844EED686997F198E9C164D7D2372070663
+              A7C403F64C722DC4B5E9E81D10815698A890E3D1E11569200C189DCEF723947B
+              C16F117D0664D402EC915C0BF2C7358BEA8C7F08639F20FE98AB7B1DF7580000
+              000049454E44AE426082}
+            FileName = 
+              'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\i' +
+              'co\mdi-account.png'
+          end>
+        Name = 'mdi-account'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C1494441545847C5975B7612411086AB7A1A78F19225E00A64014984159868
+              F260A227B0027405921568560039E6728E975C5600E724FA0A3B901D888F42D3
+              6557D13381480698007E0F99EE624EFEBFABAB2F833027AAD5FA8A7EA48B0AD4
+              5300CA724C596819A0CB37DB6B0D79690C7331707CF6BD0C7F6C05D3B8E24323
+              F42DB5DDA334CEC8BD0D9C7CBBAABA7F53F45DA02E75306559D085839C3C4310
+              2A3B2F56F77D4FB89781E3B3EB0F48F096DBE346797A5ECF5AA38B60B08C6990
+              EC10506DF7E55A495E70243670F4F5BAA810DCE807E25A9BC2ABCDC260E4B760
+              23C6E87AA0506A6338134A020950D02FFB26C48933FC1BBFE3B3C469A87CFA72
+              95E7662203D5D37AF6667EA916271E129AA02E74B8AF14BE9727FF9915ADF520
+              950E22BAF4CD8988514D07DC76739FE72C249E82104B28239A96AE361F7D1302
+              A08D44060C994814C917D69494360B9DA81610B3C932908276389718C09EC466
+              40218A01427C9CC8008F82B43DE4763897F2C3B4F4400A18897E27AE8140F7A3
+              B97454F92CF0ED5878FF0837250B7891D80057741FE81DB77983C93C54F54926
+              78F9BA5523CB8F09825E23B10126C0E0976F7231E4F403DD943D620C1C77CB37
+              DA0DDD96BCCF8348BC159F9CFDD803B235DFBDCD8525B874A36D2BA41545EA99
+              35E4523F382D89ECE1EED6BA1C60890C4C108FC7DA839DED7539C09899A7E02E
+              7137E212AADE131E1D1FC93E1C41040DB7FE0BC3E2CC4C1988137FBDB53A121F
+              5E9A469B162F5DDF1D616A03B388CFC254061625CE8C1838FA5CCF29A5AAA082
+              8BF0C2B048712632C0EB340DBA195D2CDDADC5D5687B91E28C1860F1E14D228E
+              798A33B20C755A6FFC0F71460C18656A40FD9644EE6011E2CC4D0D9CBB2F1BA3
+              9BE332B1287126DA09339479BE6C71262AC24C3AF55322432C5A9C910CA402F5
+              CF8D6619E28C180852B611DEF1986589335111F2E753BFA7F284AA1DF7393D5F
+              00FE020C97609E2E73FDFC0000000049454E44AE426082}
+            FileName = 
+              'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\i' +
+              'co\wpf-password1.png'
+          end>
+        Name = 'wpf-password1'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02CC494441545847ED965D521A4110C7676677C383491547E008F21C10F70650
+              025502463941C2098227089E005251ACF203B9C16A49F2AA3788B9815A3E68D8
+              994EF7306BB164D96C2AE4497E5514D3D350FD9FEE9EDE654B96BC78B8F97EE6
+              CBF1E5BA1062DB980B4728B87DF4C77BCD4DF786EC9080FD93D18EE0AC6BCCFF
+              865470E33FF8D966D3BD15664F836A2627576A4FE147AF17040555523619C86B
+              4BF08CB3E214693F24400164E8FBE941B61B95B50F3EA8128CD9AD76FE0300EC
+              DCB67DB7512DF418B386665B13121060BFB6AFBA875EE65D796D2852E32CA937
+              AEBF0733592FE7DCCD927BD31F7CDBC634B78D471329805264DBB64722E88FA4
+              1EB743CA1321A155C34CD2B27F32FAC8406106C2440A206645D436722550B06B
+              DCB1E87A8B71B656CD77C8D6C1674E1E305700412252DCB9DA3F1AAD925DAFE4
+              DB92412BB62FB0C974BD4BEE35990783D1A779C18958011A87A585629EAE1FB2
+              B591EFCCED0BAC77AD5CC852C6C8EC9F5E7639305D8279FC59008122A87E8188
+              E7BEC0D36A3F3155EF6ED74B1F9C8E3CBCD83BDA1743320106EC813BB3D422E8
+              B45412CC861BD49BA001833FFE61CC58120B50C09AF5F2DB219DEE70F0F5BDD9
+              D625D9AAE4CF694D0D1BF8EAE5B51D00F599D671241240C11BE55C8F02D08C00
+              80CEE13136D714DA87B7867CFD01763D422242658A20F42CC007D177EA7C636A
+              80C16E7D23DFDE3FF25681DB67D37EF4F57EDEFB2D678565B8B23DEEF0B47111
+              C3A7FB7113BB87A5A4F018B7F44D0A50120F55CDF562331004A7E6A300B3E238
+              3659EA8DF022821345CA167B64E9274B851B768AB9029E839B09161160029E6C
+              9E2F18668188A8AB1B29802BD6D1C1F11EC70D912404C3EC95B4D6E9EACE0EB1
+              90008B2BEDF41914FB27175749EE7122708E702ECE4039D8B8A0B7B898C40A09
+              905CE86BA36B3DD3340BA248E5A252086BD213BFBD92D15B11E7BC60CC85C395
+              BCE3B6EC04E37AC992970E63BF00C9C65D6AE7F740C00000000049454E44AE42
+              6082}
+            FileName = 
+              'C:\Users\User\Documents\Blangkon\Aplikasi\Android Forex\Assets\i' +
+              'co\dashicons-email-alt.png'
+          end>
+        Name = 'dashicons-email-alt'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'ant-design_eye-fill'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'ant-design_eye-invisible-fill'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'mdi-account'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'wpf-password1'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'dashicons-email-alt'
+          end>
+      end>
+    Left = 48
+    Top = 24
+  end
+end

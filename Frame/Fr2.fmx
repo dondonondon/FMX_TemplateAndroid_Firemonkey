@@ -1,0 +1,19 @@
+object F2: TF2
+  Size.Width = 320.000000000000000000
+  Size.Height = 622.000000000000000000
+  Size.PlatformDefault = False
+  object Label1: TLabel
+    Align = VertCenter
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Position.Y = 294.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'FRAME 2'
+    TabOrder = 0
+  end
+end

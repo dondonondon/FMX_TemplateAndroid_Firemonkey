@@ -1,0 +1,19 @@
+object FHome: TFHome
+  Size.Width = 355.000000000000000000
+  Size.Height = 638.000000000000000000
+  Size.PlatformDefault = False
+  object Label1: TLabel
+    Align = VertCenter
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Position.Y = 302.000000000000000000
+    Size.Width = 355.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'FRAME HOME'
+    TabOrder = 0
+  end
+end
