@@ -1,5 +1,9 @@
 # Template_Delphi_Android
  // 
+
+WARNING!!!!
+JIKA ADA ERROR DI DALAM USES, SILAHKAN DIHAPUS SAJA, BARU DI COMPILE KEMBALI. KEMUNGKINAN ADA YANG KELUPAAN SAYA HAPUS WAKTU UP KE GIT
+
  - Untuk mengganti frame ke frame lain silahkan cek di uMain dan uGoFrame 
  - tambahkan sedikit kodingan di procedure fnchangeframe di uMain 
  NB : jika mau menambahkan Frame, tambahkan kodingan di uGoFrame, ikuti kodingan sebelumnya  
