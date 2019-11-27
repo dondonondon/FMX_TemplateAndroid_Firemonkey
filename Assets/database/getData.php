@@ -33,7 +33,6 @@
 			} else {
                 $respon[$index]['result'] = "USERNAME TIDAK DITEMUKAN";
 			}
-			echo json_encode($respon,JSON_PRETTY_PRINT);
 		} elseif ($act=='register'){
 			$username = $_GET['username'];
 			$password = $_GET['password'];
@@ -64,9 +63,20 @@
 					mysqli_rollback($koneksi);
 				}
 			}
-			echo json_encode($respon,JSON_PRETTY_PRINT);
+		} elseif ($act=='getHarga'){
+			$qry = mysqli_query($koneksi,
+				"SELECT * FROM tbl_hargaonline ho LEFT JOIN pekerja_bahan pb ON pb.pkrjbhn_id = ho.pkrjbhn_id WHERE ho.harga > 0 AND ho.harga < 150000 ORDER BY ho.id_hargaonline ASC");
+			while ($list = mysqli_fetch_array($qry)) {
+				$respon[$index]['pkrjbhn_jenis'] = $list['pkrjbhn_jenis'];
+				$respon[$index]['pkrjbhn_nama'] = $list['pkrjbhn_nama'];
+				$respon[$index]['harga'] = $list['harga'];
+				$index++;
+			}
+		} else {
+			$respon[] = array('result' => 'null');
 		}
 	} else{
 		$respon[] = array('result' => 'null');
 	}
+	echo json_encode($respon,JSON_PRETTY_PRINT);
 ?>

@@ -106,22 +106,38 @@ begin
     fnSQLOpen(DM.QTemp1);
 
     if not DM.QTemp1.IsEmpty then
+    begin
+      fnSQLAdd(DM.QTemp1, 'SELECT * FROM tbl_username', True);
+      fnSQLOpen(DM.QTemp1);
+
+      if DM.QTemp1.IsEmpty then
+      begin
+        fnGoFrame(goFrame, Login);
+        Exit;
+      end;
+
       start
+    end
     else
     begin
       Task := TTask.Create(procedure ()
       begin
         DateInstall;
+        Sleep(2000);
         TThread.Queue(nil,
         procedure
         begin
-          tiShow.Enabled := True;
+          //tiShow.Enabled := True;
+          tcMain.Next();
+          tiLoad.Visible := False;
+          tcMain.TabPosition := TTabPosition.Dots;
+          tiShow.Enabled := False;
         end);
       end);
       Task.Start;
     end;
   except
-    goLogin;
+    fnGoFrame(goFrame, Home);
   end;
 end;
 

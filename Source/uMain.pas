@@ -28,8 +28,9 @@ procedure fnGoFrame(From, Go : String);
 procedure fnChangeFrame;
 procedure fnShowFootHead(stat : Boolean = True);
 procedure fnShowE(text : String; stat : Cardinal);
-procedure fnCloseLoading;
-procedure fnLoading;
+procedure fnCloseLoading; //CARA LAMA
+procedure fnLoading;      //CARA LAMA
+procedure fnLoadLoading(lo : TLayout; ani : TAniIndicator; stat : Boolean);  //ganti ini
 
 
 procedure fnGetE(Msg, Cls : String);
@@ -60,14 +61,14 @@ begin
   with FMain do
   begin
     btnPrediksi.ImageIndex := 1;
-    btnNews.ImageIndex := 3;
-    btnChat.ImageIndex := 5;
-    btnAcc.ImageIndex := 7;
+    btnNews.ImageIndex := 1;
+    btnChat.ImageIndex := 1;
+    btnAcc.ImageIndex := 1;
 
     btnPrediksiMV.ImageIndex := 1;
-    btnNewsMV.ImageIndex := 3;
-    btnChatMV.ImageIndex := 5;
-    btnAccMV.ImageIndex := 7;
+    btnNewsMV.ImageIndex := 1;
+    btnChatMV.ImageIndex := 1;
+    btnAccMV.ImageIndex := 1;
 
     btnPrediksi.FontColor := colF;
     btnNews.FontColor := colF;
@@ -97,6 +98,7 @@ begin
 
   with FMain do
   begin
+    fnLoadLoading(loLoad, aniLoad, True);
     loMain.Align := TAlignLayout.None;
 
     loMain.Opacity := 0;
@@ -107,40 +109,47 @@ end;
 
 procedure fnChangeFrame;
 begin
-  if (goFrame = Login) or (goFrame = Loading) then
-    if (FMain.header.Visible = True) or (FMain.footer.Visible = True) then
-      fnShowFootHead(False);
+  try
+    if (goFrame = Loading) or (goFrame = Login) then begin
+      if (FMain.header.Visible = True) or (FMain.footer.Visible = True) then
+        fnShowFootHead(False)
+    end else if (goFrame <> Loading) or (goFrame <> Login) then begin
+      if (FMain.header.Visible = False) or (FMain.footer.Visible = False) then
+        fnShowFootHead(True)
+    end;
 
-  if fromFrame = Login then
-    FLogin.ReleaseFrame
-  else if fromFrame = Loading then
-    FLoading.ReleaseFrame
-  else if fromFrame = Home then
-    FHome.ReleaseFrame
-  else if fromFrame = Fra2 then
-    F2.ReleaseFrame
-  else if fromFrame = Fra3 then
-    F3.ReleaseFrame
-  else if fromFrame = Fra4 then
-    F4.ReleaseFrame;
+    if fromFrame = Login then
+      FLogin.ReleaseFrame
+    else if fromFrame = Loading then
+      FLoading.ReleaseFrame
+    else if fromFrame = Home then
+      FHome.Visible := False
+    else if fromFrame = Fra2 then
+      F2.Visible := False
+    else if fromFrame = Fra3 then
+      F3.Visible := False
+    else if fromFrame = Fra4 then
+      F4.Visible := False;
 
-  if goFrame = Login then
-    goLogin
-  else if goFrame = Loading then
-    goLoading
-  else if goFrame = Home then
-    goHome
-  else if goFrame = Fra2 then
-    goF2
-  else if goFrame = Fra3 then
-    goF3
-  else if goFrame = Fra4 then
-    goF4;
+    if goFrame = Login then
+      goLogin
+    else if goFrame = Loading then
+      goLoading
+    else if goFrame = Home then
+      goHome
+    else if goFrame = Fra2 then
+      goF2
+    else if goFrame = Fra3 then
+      goF3
+    else if goFrame = Fra4 then
+      goF4;
 
-  tabCount := 0;
+    tabCount := 0;
 
-  FMain.faShow.Enabled := True;
-  FMain.faShowHeight.Enabled := True;
+    FMain.faShow.Enabled := True;
+    FMain.faShowHeight.Enabled := True;
+  except
+  end;
 end;
 
 procedure fnShowFootHead(stat : Boolean = True);
@@ -243,6 +252,17 @@ begin
   begin
     FMain.loLoad.Visible := False;
     FMain.aniLoad.Enabled := False;
+  end);
+end;
+
+procedure fnLoadLoading(lo : TLayout; ani : TAniIndicator; stat : Boolean);  //ganti ini
+begin
+  TThread.Queue(nil, procedure
+  begin
+    if stat = True then
+      lo.BringToFront;
+    lo.Visible := stat;
+    ani.Enabled := stat;
   end);
 end;
 

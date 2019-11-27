@@ -19,7 +19,6 @@ type
     btnBack: TCornerButton;
     faBack: TFloatAnimation;
     btnNotif: TCornerButton;
-    lblAnno: TLabel;
     loMessage: TLayout;
     reMessage: TRectangle;
     lblMessage: TLabel;
@@ -43,7 +42,6 @@ type
     btnTest: TCornerButton;
     memLog: TMemo;
     ListView1: TListView;
-    img: TImageList;
     mvMain: TMultiView;
     loBackground: TLayout;
     reBGMV: TRectangle;
@@ -58,6 +56,7 @@ type
     tiError: TTimer;
     loLoad: TLayout;
     aniLoad: TAniIndicator;
+    img: TImageList;
     procedure FormCreate(Sender: TObject);
     procedure btnPrediksiClick(Sender: TObject);
     procedure btnNewsClick(Sender: TObject);
@@ -113,7 +112,7 @@ begin
   if goFrame = Fra4 then
     Exit;
 
-  fnDefICO(btnAcc, btnAccMV, 6);
+  fnDefICO(btnAcc, btnAccMV, 0);
   fnGoFrame(goFrame, Fra4);
 end;
 
@@ -122,7 +121,7 @@ begin
   if goFrame = Fra3 then
     Exit;
 
-  fnDefICO(btnChat, btnChatMV, 4);
+  fnDefICO(btnChat, btnChatMV, 0);
   fnGoFrame(goFrame, Fra3);
 end;
 
@@ -131,7 +130,7 @@ begin
   if goFrame = Fra2 then
     Exit;
 
-  fnDefICO(btnNews, btnNewsMV, 2);
+  fnDefICO(btnNews, btnNewsMV, 0);
   fnGoFrame(goFrame, Fra2);
 end;
 
@@ -182,6 +181,7 @@ end;
 
 procedure TFMain.faShowHeightFinish(Sender: TObject);
 begin
+  fnLoadLoading(loLoad, aniLoad, False);
   faShowHeight.Enabled := False;
 end;
 

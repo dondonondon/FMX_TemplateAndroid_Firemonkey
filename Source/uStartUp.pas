@@ -26,7 +26,7 @@ var
   VInfo : String;
 implementation
 
-uses uFunc, uDM, uRest, uSign;
+uses uFunc, uDM, uRest, uSign, FrMain, uMain;
 
 procedure fnStat(msg :String);
 begin
@@ -90,7 +90,12 @@ begin
   begin
     try
       sleep(1500); //Hilangkan Jika sudah banyak proses dibawah ini hanya untuk menampilkan animasi
-      CekLogin;
+      //CekLogin;
+      TThread.Synchronize(nil,
+      procedure
+      begin
+        fngoFrame(goFrame, Home);
+      end);
     except
 
     end;

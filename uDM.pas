@@ -25,7 +25,6 @@ type
     bgRClient: TRESTClient;
     bgRReq: TRESTRequest;
     bgRResp: TRESTResponse;
-    imgMain: TImageList;
     img: TImageList;
     procedure ConnBeforeConnect(Sender: TObject);
   private
