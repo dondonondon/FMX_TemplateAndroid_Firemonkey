@@ -244,7 +244,7 @@ end;
 procedure TFMain.FormShow(Sender: TObject);
 begin
   tcMain.Margins.Top := 0;
-  goLoading;
+  fnGoFrame(Loading, Loading);
 end;
 
 procedure TFMain.FormVirtualKeyboardHidden(Sender: TObject;
