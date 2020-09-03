@@ -6,9 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.Objects,
-  System.ImageList, FMX.ImgList, System.Rtti, FMX.Grid.Style, FMX.ScrollBox,
-  FMX.Grid,FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListBox, FMX.Ani, System.Threading,
-  FMX.ListView.Adapters.Base, FMX.ListView, FMX.LoadingIndicator, FMX.Memo, FMX.Edit,
+  System.Rtti, System.Threading,
+  FMX.ListView.Adapters.Base,
   {$IFDEF ANDROID}
     Androidapi.Helpers, FMX.Platform.Android, System.Android.Service, System.IOUtils,
     FMX.Helpers.Android, Androidapi.JNI.PlayServices, Androidapi.JNI.Os,
