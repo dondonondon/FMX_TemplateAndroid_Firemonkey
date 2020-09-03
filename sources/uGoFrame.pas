@@ -34,7 +34,7 @@ const
 
 implementation
 
-uses frMain, frLoading, uFunc, uMain, frLogin;
+uses frMain, frLoading, uFunc, uMain, frLogin, frHome;
 
 procedure fnCallFrame(AParent: TLayout; FrameClass: TFrameClass);
 begin
@@ -53,6 +53,10 @@ begin
     fnCallFrame(FMain.loFrame, frLogin.TFLogin);
     FLogin := TFLogin(genFrame);
     FLogin.Visible := False;
+
+    fnCallFrame(FMain.loFrame, frHome.TFHome);
+    FHome := TFHome(genFrame);
+    FHome.Visible := False;
   except
 
   end;
@@ -66,7 +70,9 @@ begin
   if transFR = Loading then
     tFR := FLoading
   else if transFR = LOGIN then
-    tFR := FLogin;
+    tFR := FLogin
+  else if transFR = HOME then
+    tFR := FHome;
 
   if st = sFrom then
     frFrom := tFR

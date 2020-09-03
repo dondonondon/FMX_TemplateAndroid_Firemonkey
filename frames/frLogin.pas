@@ -19,6 +19,7 @@ type
     Rectangle1: TRectangle;
     procedure FirstShow;
     procedure btnBackClick(Sender: TObject);
+    procedure CornerButton1Click(Sender: TObject);
   private
     statF : Boolean;
     procedure setFrame;
@@ -46,6 +47,11 @@ const
 procedure TFLogin.btnBackClick(Sender: TObject);
 begin
   fnGoBack;
+end;
+
+procedure TFLogin.CornerButton1Click(Sender: TObject);
+begin
+  fnGoFrame(LOGIN, HOME);
 end;
 
 procedure TFLogin.FirstShow;

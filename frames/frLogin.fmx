@@ -84,6 +84,7 @@ object FLogin: TFLogin
       TextSettings.FontColor = claWhite
       XRadius = 3.000000000000000000
       YRadius = 3.000000000000000000
+      OnClick = CornerButton1Click
     end
   end
 end

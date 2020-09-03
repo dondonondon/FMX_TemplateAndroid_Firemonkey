@@ -21,6 +21,7 @@ uses
   frMain in 'frMain.pas' {FMain},
   uLogin in 'sources\uLogin.pas',
   frLogin in 'frames\frLogin.pas' {FLogin: TFrame},
+  frHome in 'frames\frHome.pas' {FHome: TFrame},
   frTemp in 'frames\frTemp.pas' {FTemp: TFrame};
 
 {$R *.res}

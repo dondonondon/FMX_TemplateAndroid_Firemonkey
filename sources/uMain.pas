@@ -19,8 +19,8 @@ uses
 
 const
   //FRAME
-  LOADING = 'loading';
-  HOME = 'Home';
+  LOADING = 'LOADING';
+  HOME = 'HOME';
   LOGIN = 'LOGIN';
 
   //Proses
